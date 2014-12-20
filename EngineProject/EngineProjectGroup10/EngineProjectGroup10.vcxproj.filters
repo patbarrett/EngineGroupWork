@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="IrrKlang">
+      <UniqueIdentifier>{728258dc-db62-431c-88bc-770411bdab25}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3dclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Channel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStateManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3dclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventFunctionPtr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ik_ESoundEngineOptions.h">
+      <Filter>IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ik_ESoundOutputDrivers.h">
+      <Filter>IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ik_EStreamModes.h">
+      <Filter>IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ik_IAudioRecorder.h">
+      <Filter>IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ik_IAudioStream.h">
+      <Filter>IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ik_IAudioStreamLoader.h">
+      <Filter>IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ik_IFileFactory.h">
+      <Filter>IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ik_IFileReader.h">
+      <Filter>IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ik_IRefCounted.h">
+      <Filter>IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ik_irrKlangTypes.h">
+      <Filter>IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ik_ISound.h">
+      <Filter>IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ik_ISoundDeviceList.h">
+      <Filter>IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ik_ISoundEffectControl.h">
+      <Filter>IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ik_ISoundEngine.h">
+      <Filter>IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ik_ISoundMixedOutputReceiver.h">
+      <Filter>IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ik_ISoundSource.h">
+      <Filter>IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ik_ISoundStopEventReceiver.h">
+      <Filter>IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ik_IVirtualRefCounted.h">
+      <Filter>IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ik_SAudioStreamFormat.h">
+      <Filter>IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ik_vec3d.h">
+      <Filter>IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="include\irrKlang.h">
+      <Filter>IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIStateManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikpFlac.dll">
+      <Filter>IrrKlang</Filter>
+    </None>
+    <None Include="ikpMP3.dll">
+      <Filter>IrrKlang</Filter>
+    </None>
+    <None Include="irrKlang.dll">
+      <Filter>IrrKlang</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="irrKlang.lib">
+      <Filter>IrrKlang</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
